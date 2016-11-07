@@ -1,3 +1,3 @@
 # Blogin
 
-Blog-type webpage with image slider 
+Blog-type webpage with image slider (trial and error)

@@ -1,0 +1,145 @@
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+.navbar-inverse .navbar-nav>li {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-left: none;
+  border-bottom: 2px solid #818181;
+}
+#myNavbar.navbar-collapse.in{
+  width: 100%;
+}
+.nav {
+  padding: 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+  border-left: none;
+}
+.site-header {
+  height: 100px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.site-content {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.side-bar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  height: 300px;
+}
+.main {
+  width: 100%;
+  height: auto;
+}
+.article {
+  background-color: #fff;
+  height: 400px;
+}
+.definition {
+  letter-spacing: 1px;
+  line-height: 1;
+}
+.entry-title {
+  background-color: #22b3eb;
+  width: 200px;
+  height: 50px;
+  margin-top: -50px;
+  display: block;
+  position: absolute;
+}
+h2 {
+  color: #fff;
+  text-align: left;
+  padding: 1px;
+  padding-left: 15px;
+  font-size: 12px;
+}
+#main {
+  height: auto;
+  padding-left: 10px;
+  position: relative;
+}
+.leftarrow {
+  height: 25px;
+  width: 25px;
+  position:absolute;
+  left:10px;
+  top: 20%;
+}
+.rightarrow {
+  height: 25px;
+  width: 25px;
+  position:absolute;
+  right:0px;
+  top: 20%;
+}
+#image {
+  height: 65%;
+  width: 100%;
+}
+.figure-caption {
+  background-color: #22b3eb;
+  width: 200px;
+  height: 70px;
+  margin-top: -70px;
+  display: block;
+  position: absolute;
+  color: #fff;
+}
+.figure-caption:hover {
+  color: #fff;
+  text-decoration: none;
+}
+figcaption {
+  text-align: center;
+  padding: 7.5px;
+  font-size: 15px;
+  margin-top:20px;
+}
+.article {
+  background-color: #fff;
+  height: 550px;
+}
+.author-box {
+  background-color: #5ec5f0;
+  width: 150px;
+  height: 50px;
+}
+.author {
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: left;;
+  padding: 15px;
+  font-size: 11px;
+}
+.article-box {
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-top: 35px;
+}
+.definition {
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+.subscribe-button {
+  background-color:  #22b3eb;
+  width: 150px;
+  height: 30px;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 1px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.email {
+  height: 30px;
+  width: 200px;
+}
+}

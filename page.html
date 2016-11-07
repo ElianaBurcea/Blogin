@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"  href="css/bootstrap.min.css"/>
+<link rel="stylesheet"  href="font-awesome-4.5.0/css/font-awesome.min.css"/>
+<link href="common_styles2.css" rel="stylesheet" type="text/css"/>
+<link href="media-query.css" rel="stylesheet" type="text/css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="slide.js" type="text/javascript"></script>
+<title>BlogInn</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="row">
+      <a href><div class="subscribe">
+        <i class="fa fa-rss" aria-hidden="true"></i>
+      </a></div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a class="noTransition" href="#">ABOUT</a></li>
+            <li><a class="noTransition" href="#">STYLE GUIDE</a></li>
+            <li><a class="noTransition" href="#">ARCHIVE</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <div class="site-header">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="side-line"></div><a href><h1>BLOGINN</h1></a>
+        <p class="site-description">Thoughts, stories and ideas.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="site-content">
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <div id="main">
+          <div id="left-container">
+            <div id="left-arrow">
+              <img onClick="slide(-1)" src="images/leftarrow.png" class="leftarrow"/>
+            </div>
+          </div>
+          <div id="right-container">
+            <div id="right-arrow">
+              <img onClick="slide(1)" src="images/rightarrow.png" class="rightarrow"/>
+            </div>
+          </div>
+          <img id="image" src="images/image1.jpg"/>
+            <a class="figure-caption" href><figcaption>Graphic designer on the road</figcaption></a>
+              <div class="article">
+                <div class="author-box">
+                  <p class="author">BY JOHN DOE ON MARCH 23, 2016</p>
+                </div>
+                <div class="article-box">
+                  <p class="definition">A graphic designer is a professional within the graphic design and graphic arts industry who assembles together images, typography, or motion graphics to create a piece of design. A graphic designer creates the graphics primarily for published, printed or electronic media, such as brochures (sometimes) and advertising. They are also sometimes responsible for typesetting, illustration, user interfaces, web design, or take a teaching position. A core responsibility of the designer’s job is to present information in a way that is both accessible and memorable.<p/>
+                </div>
+              </div>
+            </div>
+        </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="side-bar">
+            <h2>- ABOUT JOHN DOE</h2>
+              <p>John is a designer, photographer, speaker, author of a couple of books about typography and the founder of photo magazine Curious.</p>
+              <hr>
+              <h2>- BLOGINN NEWSLETTER</h2>
+              <p>Subscribe here to get our latest updates.</p>
+              <form>
+                <input class="email" type="email" value="email address">
+                <input class="subscribe-button" type="button" value="SUBSCRIBE">
+              </form>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
